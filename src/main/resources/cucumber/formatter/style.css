@@ -1,0 +1,232 @@
+body {
+  font-size: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* visited link */
+#cucumber-header a:visited {
+    color: white;
+}
+
+#collapse {
+  background-color: linen;
+  font: normal 14px "Lucida Grande", Helvetica, sans-serif
+}
+
+#collapse a:link {
+  color: green;
+}
+
+.cucumber-report {
+  font: normal 12px "Lucida Grande", Helvetica, sans-serif;
+}
+
+.cucumber-report .keyword {
+  font-weight: bold;
+}
+
+.cucumber-report details > section {
+  margin-left: 20px;
+}
+
+.cucumber-report ol.steps {
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 1.5em;
+  padding-left: 5px;
+}
+
+.cucumber-report .step .embedded-text {
+  background: #dddddd;
+}
+
+.cucumber-report .doc_string {
+  margin: 0 0 0 20px;
+}
+
+.cucumber-report table {
+  border-collapse: collapse;
+  border: 1px;
+  border-style: solid;
+  margin-bottom: 20px
+}
+
+.cucumber-report td, .cucumber-report th {
+  border: 1px;
+  border-style: solid;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.cucumber-report table {
+  margin-left: 20px;
+}
+
+.cucumber-report thead {
+  background-color: #C0C0C0;
+}
+
+.cucumber-report .undefined, .cucumber-report .pending {
+  background-color: #EAEC2D;
+}
+
+.cucumber-report .tags {
+  /*display: none;*/
+  float:right;
+}
+
+.cucumber-report .tag {
+  margin-right: 0.25em;
+  color: #246ac1;
+}
+
+.cucumber-report .comments {
+  display: inline;
+}
+
+.cucumber-report .comment {
+  margin 0;
+  padding 0;
+}
+
+.cucumber-report .error {
+  margin: .2em .75em;
+  padding: .2em;
+  border: 1px solid #900;
+  font-size: 11px;
+  background: #fffbd3;
+  color: black;
+}
+
+#cucumber-templates {
+  display: none;
+}
+
+.description {
+  white-space: pre;
+  font-size: 12px;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: 20px;
+}
+
+.header {
+  font-weight: bold;
+  padding: 3px;
+}
+
+.feature .header {
+  font-size: 1.5em;
+}
+
+.scenario .header {
+  font-size: 12px;
+}
+
+.background .header {
+  font-size: 12px;
+}
+
+.after .header {
+  font-size: 12px;
+}
+
+.scenario_outline .header {
+  font-size: 12px;
+}
+
+.passed .header {
+  background-color: #65c400;
+}
+
+.step {
+  margin: 5px;
+  padding: 3px;
+  padding-left: 18px;
+  font-size: 11px;
+}
+
+.passed.step {
+  background-color: #dbffb4;
+  border-left: 5px solid #65c400;
+  border-bottom: 1px solid #65c400;
+  color: #3d7700;
+}
+
+.failed.step {
+  border-left: 5px solid #c20000;
+  border-bottom: 1px solid #c20000;
+  background: #fffbd3;
+  color: #c20000;
+}
+
+.skipped.step {
+  border-left: 5px solid aqua;
+  border-bottom: 1px solid aqua;
+  background: #e0ffff;
+  color: #001111;
+}
+
+.scenario .header {
+  color: white;
+}
+.background .header {
+  color: white;
+  background-color: #666;
+}
+
+.skipped .header {
+  background-color:  #2DEAEC;
+}
+
+.undefined .header {
+  color: #000;
+  background-color: #EAEC2D;
+}
+
+.failed .header {
+  background: rgb(196, 13, 13);
+}
+
+.feature {
+  margin-top: 1px;
+}
+
+img {
+  margin-top: 10px;
+  display:block;
+}
+
+#label {
+  position: absolute;
+}
+
+h1 {
+  margin: 0px 10px;
+  padding: 10px;
+}
+
+#summary {
+  text-align: right;
+  float: right;
+  padding: 0px 10px;
+}
+
+#collapse {
+  text-alight: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  display:block;
+}
+
+#cucumber-header {
+  color: white;
+  height: 6em;
+  background-color: #65c400;
+}
+
+#cucumber-header.failed {
+  background-color: rgb(196, 13, 13);
+}
